@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -252,6 +252,8 @@ h2::before {
 
 .author{
   float: left;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .title{
@@ -268,24 +270,14 @@ h2::before {
   display: block;
 }
 
-/* Resolving conflicts */
-/* #copyright {
-  color: red;
+article{
+  width: 800px;
+  float: left;
 }
-
-.copyright {
-  color: blue;
+aside{
+  width: 300px;
+  float: right;
 }
-
-.text {
-  color: yellow;
+footer{
+  clear: both;
 }
-
-footer p {
-  color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-  font-size: 18px;
-} */
