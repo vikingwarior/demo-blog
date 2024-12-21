@@ -244,6 +244,30 @@ h2::before {
   right: -25px;
 }
 
+/* Float */
+.author-img{
+  float: left;
+  margin-bottom: 10px;
+}
+
+.author{
+  float: left;
+}
+
+.title{
+  float: left;
+}
+
+.navbar{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
 /* Resolving conflicts */
 /* #copyright {
   color: red;
