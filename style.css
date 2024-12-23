@@ -245,7 +245,7 @@ h2::before {
 }
 
 /* Float */
-.author-img{
+/* .author-img{
   float: left;
   margin-bottom: 10px;
 }
@@ -280,4 +280,30 @@ aside{
 }
 footer{
   clear: both;
+} */
+
+/* Flexbox */
+.main-header{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.author-box{
+  display: flex;
+}
+
+.author{
+  margin: 0;
+  margin-left: 10px;
+}
+
+.related-post{
+  display: flex;
+}
+
+.related-author{
+  margin-bottom: 0;
+  font-weight: 0;
+  font-style: italic;
 }
